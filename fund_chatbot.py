@@ -300,7 +300,7 @@ Guidelines:
 - If asked about a specific fund, provide detailed information about that fund
 - If asked general questions, provide an overview across all funds
 - Use natural language and explain what the numbers mean
-- If the question is unclear, ask for clarification or provide what you think is most relevant"""
+- If the question is unclear, respond with 'Sorry can not find the answer'"""
             
             messages = [
                 SystemMessage(content=system_prompt),
